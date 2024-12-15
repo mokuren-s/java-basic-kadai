@@ -30,8 +30,12 @@ public class Car_Chapter15 {
 		        speed = 10;
 		        break;
 		}
+		
 		// ギアチェンジの表示
 		System.out.println("ギア" + gear + "から" + afterGear + "に切り替えました");
+		
+		//　変更したギアの更新
+		gear = afterGear;
 	}
 	
 	// 【メソッド】 ギアを変えた後の速度を表示
