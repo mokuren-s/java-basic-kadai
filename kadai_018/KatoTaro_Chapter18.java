@@ -7,11 +7,6 @@ public class KatoTaro_Chapter18 extends Kato_Chapter18 {
 		this.givenName = "太郎"; // 太郎を割り当てる
 	}
 	
-	// コンストラクタ
-	public KatoTaro_Chapter18() {
-		setGivenName(); // ここで名前をセット
-	}
-	
 	// 抽象メソッドに具体的な処理を記述する
 	public void eachIntroduce() {
 		System.out.println("私はJavaが得意です");
