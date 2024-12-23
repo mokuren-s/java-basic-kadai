@@ -11,7 +11,6 @@ public class DictionaryExec_Chapter21 {
 		
 		// 辞書を調べるメソッドを引数指定で呼び出す
 		dictionary.lookUpWords(wordsArray);
-			
+		
 	}
-
 }
